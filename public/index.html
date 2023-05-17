@@ -29,6 +29,15 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed@latest/dist/web.js"
+      Chatbot.init({
+          chatflowid: "be3e7e13-93e1-4cdc-9258-b4a7e8bd745a",
+          apiHost: "https://flowise-test.onrender.com",
+      })
+  </script>
+  
+  
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
